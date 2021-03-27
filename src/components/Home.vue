@@ -1,16 +1,76 @@
 <template>
-  <div id="home">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi sunt repudiandae optio saepe. Nostrum numquam cupiditate nisi. Asperiores ea iusto minima debitis ad deleniti repellendus facilis eos excepturi! Laborum?</p>
+  <div id="home" class="pt-5">
+    <h2>Vaults</h2>
+    <h3>TVL: $5,852,066</h3>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 pb-5">
+          <div class="card">
+            <div class="card-header">Featured</div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 pb-5">
+          <div class="card">
+            <div class="card-header">Featured</div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 pb-5">
+          <div class="card">
+            <div class="card-header">Featured</div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 pb-5">
+          <div class="card">
+            <div class="card-header">Featured</div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'Home',
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+#home {
+  color: white;
+}
+.card {
+  color: black;
+}
 </style>

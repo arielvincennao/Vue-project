@@ -1,6 +1,6 @@
 <template>
-  <div id="vault">
-      <h1 class="text-left">Deposite to Earn</h1>
+  <div id="vault" class="pt-5">
+      <h2 class="text-center">Deposit to Earn</h2>
       <Home></Home>
   </div>
 </template>
@@ -18,5 +18,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  h2{
+    color: #3C4858;
+  }
 </style>

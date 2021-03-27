@@ -1,3 +1,3 @@
 # Vue-project
 
-use cnpm run dev
+use npm run dev

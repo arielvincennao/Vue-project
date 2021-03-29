@@ -29,8 +29,12 @@
 </template>
 
 <script>
+import VaultList from  '@/components/VaultList'
 export default {
   name: "App",
+  components:{
+    VaultList
+  }
 };
 </script>
 
